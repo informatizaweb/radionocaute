@@ -1,0 +1,17 @@
+<ion-view title="TOP 10 - Artistas" id="page11" class=" ">
+
+    <ion-content style="background: url(img/6xvhWXCTSKyzscw40yHv_fundoapp.jpg) no-repeat center;background-size:cover;" class="has-header">
+
+        <div ng-repeat="item in items" class="list card" ng-click="goToContent(item.id)">
+
+            <div class="tituloequipe">
+
+                <div align="center" class="imgartistas"><img class="full-image2" ng-src="{{item.images.imageLarge}}"></div>
+                <div class="tituloartistas">{{item.title}}</div>
+                <div>{{item.introtext | htmlToPlaintext | limitTo: 150}} ...</div>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,30 @@
+/* Empty. Add your own CSS if you like */
+.player {
+	margin-top: 70px;
+}
+.formResponsive .formHorizontal .formControlLabel {
+         width: 43% !important;
+    }
+.formResponsive input[type="text"], .formResponsive input[type="password"], .formResponsive textarea, .formResponsive select {
+    max-width: 300px !important;
+}
+    .append-1 {
+       padding-left: 10px !important;
+}
+.frame {padding-left: 10px;}
+input[type=text], input[type=password], input[type=url], input[type=email], input.text, input.title, textarea {
+    background-color: rgba(8, 8, 8, 0.59) !important;
+    border: 1px solid #bbb;
+    color: #ffffff !important;
+}
+
+.letravermelha {
+    color: #b9121a;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px #510105;
+    padding-top: 18px;
+    padding-left: 35%;
+    font-style: italic;
+}

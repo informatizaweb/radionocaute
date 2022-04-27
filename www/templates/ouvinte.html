@@ -1,0 +1,21 @@
+<ion-view title="Ouvintes" id="page10" class=" ">
+    
+    <ion-content style="background: url(img/noar.jpg) no-repeat left;background-size:cover;" class="has-header">
+
+        <div ng-repeat="item in items" class="list card">
+
+            <div class="tituloequipe">
+               
+                <div align="center" class="imgouvinte"><img class="full-image2" ng-src="{{item.image}}"></div>
+                 <div class="tituloouvinte">{{item.name}}</div>
+                
+                
+
+<div align="center"><div ng-bind-html="item.description"></div></div>
+
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

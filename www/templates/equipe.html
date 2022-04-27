@@ -1,0 +1,17 @@
+<ion-view title="Equipe" id="page9" class=" ">
+    
+    <ion-content style="background: url(img/radio.jpg) no-repeat center;background-size:cover;" class="has-header">
+
+        <div ng-repeat="item in items" class="list card">
+
+            <div class="tituloequipe">
+               
+                <div align="center" class="imgequipe"><img class="full-image2" ng-src="{{item.images.imageLarge}}"></div>
+                 <div class="tituloequipe2">{{item.title}}</div>
+                <div ng-bind-html="item.introtext"></div>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,15 @@
+<ion-view title="Promoções" id="page4" class=" ">
+    <ion-content padding="true" class="has-header">
+
+        <div ng-repeat="item in items">
+
+            <div class="titulo">
+                <h2>{{item.title}}</h2>
+                <div align="center"><img class="full-image2" ng-src="{{item.images.imageLarge}}"></div>
+                <div ng-bind-html="item.introtext"></div>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>
